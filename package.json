@@ -17,9 +17,12 @@
     "web:build": "yarn workspace web build",
     "rust:dev": "cd packages/rust && cargo watch -i .gitignore -i \"pkg/*\" -s \"wasm-pack build --target web\"",
     "rust:build": "cd packages/rust && wasm-pack build --target web",
-    "dev": "concurrently --kill-others-on-fail \"yarn web:dev\"  \"yarn rust:dev\"",
+    "dev": "concurrently --kill-others-on-fail \"yarn web:dev\"  \"yarn wgol:dev\"",
     "build": "yarn rust:build && yarn web:build",
-    "ci:build": "yarn rust:build && yarn && yarn web:build"
+    "ci:build": "yarn rust:build && yarn && yarn web:build",
+    "wgol:build": "cd packages/wasm-game-of-life && wasm-pack build --target web",
+    "wgol:dev": "cd packages/wasm-game-of-life && cargo watch -i .gitignore -i \"pkg/*\" -s \"wasm-pack build --target web\"",
+    "wgol:test": "cd packages/wasm-game-of-life && wasm-pack test --headless --firefox"
   },
   "dependencies": {
     "concurrently": "^6.3.0"
