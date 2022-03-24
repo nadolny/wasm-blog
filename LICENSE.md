@@ -1,4 +1,4 @@
-Copyright (c) 2018 Daniel Segovia <segoarce90@gmail.com>
+Copyright (c) 2018 Daniel Segovia <segoarce90@gmail.com> and Connor James Smith <cjs.connor.smith@gmail.com>
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated

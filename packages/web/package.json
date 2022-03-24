@@ -1,6 +1,11 @@
 {
   "name": "web",
   "version": "0.0.0",
+  "authors": [ 
+      "Connor James Smith <cjs.connor.smith@gmail.com",
+      "Daniel Segovia <segoarce90@gmail.com>"
+  ],
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite --host",

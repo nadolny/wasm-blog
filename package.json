@@ -1,7 +1,10 @@
 {
-  "name": "wasm-monorepo",
+  "name": "wasm-blog",
   "version": "1.0.0",
-  "author": "Daniel Segovia <segoarce90@gmail.com>",
+  "authors": [
+      "Daniel Segovia <segoarce90@gmail.com>",
+      "Connor James Smith <cjs.connor.smith@gmail.com>"
+  ],
   "license": "MIT",
   "private": true,
   "workspaces": [
