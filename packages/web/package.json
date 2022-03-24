@@ -19,6 +19,7 @@
     "vite": "^2.6.4"
   },
   "dependencies": {
-    "vite-wasm-functions": "^0.1.0"
+    "vite-wasm-functions": "^0.1.0",
+    "wasm-game-of-life": "^0.1.0"
   }
 }

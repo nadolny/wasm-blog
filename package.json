@@ -6,7 +6,8 @@
   "private": true,
   "workspaces": [
     "packages/rust/pkg",
-    "packages/web"
+    "packages/web",
+    "packages/wasm-game-of-life/pkg"
   ],
   "scripts": {
     "web:dev": "yarn workspace web dev",

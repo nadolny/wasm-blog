@@ -2,6 +2,7 @@
   import logo from "./assets/svelte.png";
   import Alert from "./lib/Alert.svelte";
   import Counter from "./lib/Counter.svelte";
+  import GameOfLife from "./lib/GameOfLife.svelte";
 </script>
 
 <main>
@@ -13,6 +14,9 @@
   </div>
   <div class="alert">
     <Alert />
+  </div>
+  <div>
+      <GameOfLife />
   </div>
 
   <p>
