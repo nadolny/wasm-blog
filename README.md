@@ -150,3 +150,4 @@ for sveltekit, and potentially for vue and react.
 - [Game of Life in pure Rust/wasm: avoiding RefCell](https://users.rust-lang.org/t/game-of-life-in-pure-rust-wasm-avoiding-refcell/45836)
 - [Tutorial: Conway's Game of Life in Rust and WebAssembly](https://www.reddit.com/r/rust/comments/8brxds/tutorial_conways_game_of_life_in_rust_and/)
 - [Hello, World! - Rust and WebAssembly](https://rustwasm.github.io/docs/book/game-of-life/hello-world.html)
+- [wasm_game_of_life](https://github.com/rustwasm/wasm_game_of_life/tree/master?tab=readme-ov-file)
